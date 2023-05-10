@@ -1,0 +1,40 @@
+"Source:","C:\Users\emc147\OneDrive - University of Canterbury\CSSE Work\Maaratech\Camera Bar\Flash\PCBs\19v Precharge Cap Board\Cap Precharge Board\Cap Precharge Board.sch"
+"Date:","21/04/2023 4:12:52 pm"
+"Tool:","Eeschema (5.1.9)-1"
+"Generator:","C:\Program Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value.py",
+"Component Count:","14",
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"","","C1","10uF SMD 1206","Device:C","Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder","~"
+"","","C2","1uF SMD 1206","Device:C","Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder","~"
+"","","C3","UVR1E103MRD","Cap Precharge Board V2:UVR1E103MRD","Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn","https://download.datasheets.com/pdfs/2016/10/6/6/6/44/578/nch_/manual/93896153625063e-uvr.pdf"
+"","","C4","UVR1E103MRD","Cap Precharge Board V2:UVR1E103MRD","Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn","https://download.datasheets.com/pdfs/2016/10/6/6/6/44/578/nch_/manual/93896153625063e-uvr.pdf"
+"","","J1","MR30","Connector_Generic:Conn_01x03","Cap Precharge Board:MR30","~"
+"","","J2","XT30","Connector_Generic:Conn_01x02","Cap Precharge Board:XT30","~"
+"","","Q1","SI4143DY","Cap Precharge Board V2:SI4143DY","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","https://www.vishay.com/docs/63242/si4143dy.pdf"
+"","","Q2","MCU80N03-TP","Cap Precharge Board V2:MCU80N03-TP","Package_TO_SOT_SMD:TO-252-2","https://www.mccsemi.com/pdf/Products/MCU80N03(DPAK).pdf"
+"","","R1","56kOhm SMD 1206","Device:R","Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder","~"
+"","","R2","69.8kOhm SMD 1206","Device:R","Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder","~"
+"","","R3","1kOhm SMD 1206","Device:R","Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder","~"
+"","","R4","1kOhm SMD 1206","Device:R","Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder","~"
+"","","R5","1kOhm SMD 1206","Device:R","Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder","~"
+"","","R6","23Ohm SMD 1206","Device:R","Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder","~"
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"1","1","C1","10uF SMD 1206","Device:C","Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder","~"
+"2","1","C2","1uF SMD 1206","Device:C","Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder","~"
+"3","2","C3, C4","UVR1E103MRD","Cap Precharge Board V2:UVR1E103MRD","Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn","https://download.datasheets.com/pdfs/2016/10/6/6/6/44/578/nch_/manual/93896153625063e-uvr.pdf"
+"4","1","J1","MR30","Connector_Generic:Conn_01x03","Cap Precharge Board:MR30","~"
+"5","1","J2","XT30","Connector_Generic:Conn_01x02","Cap Precharge Board:XT30","~"
+"6","1","Q1","SI4143DY","Cap Precharge Board V2:SI4143DY","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","https://www.vishay.com/docs/63242/si4143dy.pdf"
+"7","1","Q2","MCU80N03-TP","Cap Precharge Board V2:MCU80N03-TP","Package_TO_SOT_SMD:TO-252-2","https://www.mccsemi.com/pdf/Products/MCU80N03(DPAK).pdf"
+"8","1","R1","56kOhm SMD 1206","Device:R","Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder","~"
+"9","1","R2","69.8kOhm SMD 1206","Device:R","Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder","~"
+"10","3","R3, R4, R5","1kOhm SMD 1206","Device:R","Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder","~"
+"11","1","R6","23Ohm SMD 1206","Device:R","Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder","~"
