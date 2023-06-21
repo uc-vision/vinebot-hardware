@@ -5,4 +5,4 @@ Design and reference documents for the vine scanning robot platforms Genie and M
 <p align="centre">
  <img src="pics/original_platform_render.JPG" width="50%"/>
 </p>
-<i>Fig 1: Base platform model</i>
+<i>Fig 1: Base platform chassis CAD model render</i>
