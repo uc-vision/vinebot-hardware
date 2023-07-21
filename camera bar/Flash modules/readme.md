@@ -21,7 +21,7 @@ For 9S configuration
 
 For Vinput = 17.8V we get a current of > 3 A. Imax = 3 A.
 
-<h2>Driver Board</h2>
+<h2>Flash Precharge Driver Board</h2>
 
 The driver board is a simple passive circuit consisting of, capacitors, an inrush current limiting circuit, a drive MOSFET and a bleed/discharge resistor. 
 
