@@ -45,4 +45,4 @@ The gate driver is an 8 pin TC4422, non inverting gate drivers capable of a peak
 
 R1 is required as a pull down, otherwise the arduino gate drive will be sensitive to noise. 
 
-R2 is to keep gate drive current below 9A when operated at the original set voltage. The pulse duration is currently set to 2 ms, to ensure that the current limit of the TC4422 driver MOSFET.
+R2 is to keep gate drive current below 9A when operated at the original set voltage. The pulse duration is currently set to 2 ms, to ensure that the current limit of the TC4422 driver MOSFET isn't surpassed.
