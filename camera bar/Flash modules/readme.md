@@ -37,6 +37,9 @@ The arduino gate driver is a simple uno with basic power and gate drive circuitr
 
 The arduino code, Flash.ino, originally triggers on an input from pin 12 and outputs to pin 5.
 
+Max Vcc = 19 V
+Max Iout (Flash module switch line) = 6 A
+
 <p align="centre">
  <img src="Arduino Uno Gate Drive Hat.png" width="80%"/>
 </p>
@@ -45,4 +48,4 @@ The gate driver is an 8 pin TC4422, non inverting gate drivers capable of a peak
 
 R1 is required as a pull down, otherwise the arduino gate drive will be sensitive to noise. 
 
-R2 is to keep gate drive current below 9A when operated at the original set voltage. The pulse duration is currently set to 2 ms, to ensure that the current limit of the TC4422 driver MOSFET isn't surpassed.
+R2 is to keep gate drive current below 9A when operated at the original set voltage. The pulse duration is currently set to 2 ms, to ensure that the current limit of the TC4422 driver MOSFET isn't surpassed. > 2.2ms power will start to drawn straight from the power supply to power the LEDs, which require a current > 500 W.
